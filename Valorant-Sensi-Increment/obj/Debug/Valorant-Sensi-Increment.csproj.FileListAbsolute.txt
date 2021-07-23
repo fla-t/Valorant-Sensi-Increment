@@ -1,0 +1,10 @@
+C:\Users\Salman\source\repos\Valorant-Sensi-Increment\Valorant-Sensi-Increment\bin\Debug\Valorant-Sensi-Increment.exe.config
+C:\Users\Salman\source\repos\Valorant-Sensi-Increment\Valorant-Sensi-Increment\bin\Debug\Valorant-Sensi-Increment.exe
+C:\Users\Salman\source\repos\Valorant-Sensi-Increment\Valorant-Sensi-Increment\bin\Debug\Valorant-Sensi-Increment.pdb
+C:\Users\Salman\source\repos\Valorant-Sensi-Increment\Valorant-Sensi-Increment\obj\Debug\Valorant-Sensi-Increment.csprojAssemblyReference.cache
+C:\Users\Salman\source\repos\Valorant-Sensi-Increment\Valorant-Sensi-Increment\obj\Debug\Valorant_Sensi_Increment.MainScreen.resources
+C:\Users\Salman\source\repos\Valorant-Sensi-Increment\Valorant-Sensi-Increment\obj\Debug\Valorant_Sensi_Increment.Properties.Resources.resources
+C:\Users\Salman\source\repos\Valorant-Sensi-Increment\Valorant-Sensi-Increment\obj\Debug\Valorant-Sensi-Increment.csproj.GenerateResource.cache
+C:\Users\Salman\source\repos\Valorant-Sensi-Increment\Valorant-Sensi-Increment\obj\Debug\Valorant-Sensi-Increment.csproj.CoreCompileInputs.cache
+C:\Users\Salman\source\repos\Valorant-Sensi-Increment\Valorant-Sensi-Increment\obj\Debug\Valorant-Sensi-Increment.exe
+C:\Users\Salman\source\repos\Valorant-Sensi-Increment\Valorant-Sensi-Increment\obj\Debug\Valorant-Sensi-Increment.pdb
