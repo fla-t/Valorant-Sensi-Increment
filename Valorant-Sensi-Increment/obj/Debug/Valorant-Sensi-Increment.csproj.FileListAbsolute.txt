@@ -8,3 +8,7 @@ C:\Users\Salman\source\repos\Valorant-Sensi-Increment\Valorant-Sensi-Increment\o
 C:\Users\Salman\source\repos\Valorant-Sensi-Increment\Valorant-Sensi-Increment\obj\Debug\Valorant-Sensi-Increment.csproj.CoreCompileInputs.cache
 C:\Users\Salman\source\repos\Valorant-Sensi-Increment\Valorant-Sensi-Increment\obj\Debug\Valorant-Sensi-Increment.exe
 C:\Users\Salman\source\repos\Valorant-Sensi-Increment\Valorant-Sensi-Increment\obj\Debug\Valorant-Sensi-Increment.pdb
+C:\Users\Salman\source\repos\Valorant-Sensi-Increment\Valorant-Sensi-Increment\bin\Debug\Valorant-Sensi-Increment.exe.manifest
+C:\Users\Salman\source\repos\Valorant-Sensi-Increment\Valorant-Sensi-Increment\bin\Debug\Valorant-Sensi-Increment.application
+C:\Users\Salman\source\repos\Valorant-Sensi-Increment\Valorant-Sensi-Increment\obj\Debug\Valorant-Sensi-Increment.exe.manifest
+C:\Users\Salman\source\repos\Valorant-Sensi-Increment\Valorant-Sensi-Increment\obj\Debug\Valorant-Sensi-Increment.application

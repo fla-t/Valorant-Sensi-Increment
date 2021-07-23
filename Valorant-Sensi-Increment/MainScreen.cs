@@ -14,7 +14,7 @@ namespace Valorant_Sensi_Increment {
 
         public MainScreen(){
             InitializeComponent();
-            
+
             string path = Path.GetPathRoot(Environment.SystemDirectory);
             string userName = System.Security.Principal.WindowsIdentity.GetCurrent().Name;
             string save_loc = path + string.Format("Users\\{0}\\Valorant_Increment.txt", userName.Split('\\')[1]);
@@ -195,10 +195,20 @@ namespace Valorant_Sensi_Increment {
         private void Tray_Icon_MouseDoubleClick(object sender, MouseEventArgs e) {
             this.Show();
             WindowState = FormWindowState.Normal;
+            ShowInTaskbar = true;
+            Tray_Icon.Visible = false;
         }
 
         private void MainScreen_Load(object sender, EventArgs e) {
-            this.ShowInTaskbar = false;
+        }
+
+        private void MainScreen_Resize(object sender, EventArgs e) {
+            if (WindowState == FormWindowState.Minimized) {
+                this.Hide();
+                ShowIcon = false;
+                Tray_Icon.Visible = true;
+                //Tray_Icon.ShowBalloonTip(1000);
+            }
         }
     }
 }

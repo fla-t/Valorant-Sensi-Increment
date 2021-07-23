@@ -272,6 +272,7 @@ namespace Valorant_Sensi_Increment {
             // 
             // Tray_Icon
             // 
+            this.Tray_Icon.BalloonTipText = "The Appilcation is minimized in System Tray.";
             this.Tray_Icon.BalloonTipTitle = "Valorant Sensi Incrementer";
             this.Tray_Icon.Icon = ((System.Drawing.Icon)(resources.GetObject("Tray_Icon.Icon")));
             this.Tray_Icon.Text = "Valorant Sensi Incrementer";
@@ -292,11 +293,12 @@ namespace Valorant_Sensi_Increment {
             this.Controls.Add(this.label1);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.linkLabel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "MainScreen";
             this.Text = "Valorant Sensitivity Incrementer";
-            this.Load += new System.EventHandler(this.MainScreen_Load);
+            this.Resize += new System.EventHandler(this.MainScreen_Resize);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);

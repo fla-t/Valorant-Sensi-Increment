@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Valorant-Sensi-Increment.exe" version="1.0.0.0" publicKeyToken="dbef0dccb3b46793" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Valorant-Sensi-Increment" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Valorant-Sensi-Increment.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Valorant-Sensi-Increment.exe" size="150504">
+      <assemblyIdentity name="Valorant-Sensi-Increment" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>5uIg/DGvLD/M9jVWe/IYx3PKBa/4JKF6fiTh1yXJtMc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Valorant-Sensi-Increment.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-5G6KL99\Salman" issuerKeyHash="63b05c679df38f2703088156fa0cb84d6a50ed1f" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ZxZl6oSb3tH3zrfnAvnppYYBOKF2qmaFT/+glSiZlC8=</DigestValue></Reference></SignedInfo><SignatureValue>jkPINOl8FLSYP+3Ty8ap4VVWiRvE1IMJjqGQpDLxQoo31FykNh1GJWS4+nyK8fK/d5xR/ny19VClL0EEXIW/loroXOi+4uXQyUb2VMTENOYicqhcR0sKX93aBytB/5wfJdMjQLEbdXk1x+rziOxs7FAQBmLqUnJrEIx1WtFCwG0=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>qENkAlVXR95/NT4cyupa97o88C+nCWqgaoDIe86SN7tvBX4TjksZ5APoMAAXf+izww+Cf4Tf9x61griLYyWdQgMmbm3xwJ/OeAxkBcuHZTyiF/6AhtZKcJOV8L9MFv1Ip89NoVHpsHKRLeBl1cAjqQqaroD0CU1Ic/FSKcHe2s0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="2f94992895a0ff4f8566aa76a1380186a5e9f902e7b7cef7d1de9b84ea651667" Description="" Url=""><as:assemblyIdentity name="Valorant-Sensi-Increment.exe" version="1.0.0.0" publicKeyToken="dbef0dccb3b46793" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-5G6KL99\Salman</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>0/BKblSBXClnLHAuGuAz5YFGGz0lAygUmx4DXS8Qkko=</DigestValue></Reference></SignedInfo><SignatureValue>UUkgp1J4e8vw1/N7ShYhIhFpsPkzYFCpbG1lBm9dmzfUSTvWAIatMz7YyTyqIppm3Gy4+N6NWQK3x+k18jhCsjk9+WtLnPOh7V30kG3Xeg3WINGReF+wugmRB0z4jGxDgYpCPtgUo1CVRUJjE96rRbb1jBUY+rukvcorTpfprXg=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>qENkAlVXR95/NT4cyupa97o88C+nCWqgaoDIe86SN7tvBX4TjksZ5APoMAAXf+izww+Cf4Tf9x61griLYyWdQgMmbm3xwJ/OeAxkBcuHZTyiF/6AhtZKcJOV8L9MFv1Ip89NoVHpsHKRLeBl1cAjqQqaroD0CU1Ic/FSKcHe2s0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB8TCCAVqgAwIBAgIQG9s2i7lMNJxC7kNbNucm0jANBgkqhkiG9w0BAQsFADA3MTUwMwYDVQQDHiwARABFAFMASwBUAE8AUAAtADUARwA2AEsATAA5ADkAXABTAGEAbABtAGEAbjAeFw0yMTA3MjMxNzI5NDZaFw0yMjA3MjMyMzI5NDZaMDcxNTAzBgNVBAMeLABEAEUAUwBLAFQATwBQAC0ANQBHADYASwBMADkAOQBcAFMAYQBsAG0AYQBuMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCoQ2QCVVdH3n81PhzK6lr3ujzwL6cJaqBqgMh7zpI3u28FfhOOSxnkA+gwABd/6LPDD4J/hN/3HrWCuItjJZ1CAyZubfHAn854DGQFy4dlPKIX/oCG1kpwk5Xwv0wW/Uinz02hUemwcpEt4GXVwCOpCpqugPQJTUhz8VIpwd7azQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAApo7GQ7/MjFwiFYLCPze/EtHizQpn3tXeLdpjFaOId22QKJop60dScNHITwgJLEQl1793MZy2xEChC2AfWFmaVZ+L+g5k/M3pCVKAynWK8SvCVyMidoUwKznK5pTMdS9/2wI3RZAWeb4qE3wdLSH9x4D5q0Xr8U0554y4eLX+eZ</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
